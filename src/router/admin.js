@@ -1,13 +1,16 @@
+import AdminLayout from "../layouts/AdminLayout.vue";
+import DashboardPage from "../pages/dashboard/IndexPage.vue";
+
 const AdminRoutes = {
 	path: '/admin',
-	component: () => import('./../layouts/AdminLayout.vue'),
+	component: AdminLayout,
 	meta: {
 		title: 'Panel administracyjny'
 	},
 	children: [
 		{
 			path: '/',
-			component: () => import('./../pages/dashboard/IndexPage.vue'),
+			component: DashboardPage,
 			name: 'admin',
 			meta: {
 				title: 'Kokpit'
