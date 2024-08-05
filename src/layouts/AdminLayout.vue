@@ -1,5 +1,5 @@
 <template>
 	<div>
-		SZABLON ADMINA
+		<router-view />
 	</div>
 </template>
