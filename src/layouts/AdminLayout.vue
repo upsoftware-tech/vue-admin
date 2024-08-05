@@ -5,3 +5,7 @@
 		<router-view />
 	</div>
 </template>
+
+<script setup>
+import { QInput } from "quasar";
+</script>
