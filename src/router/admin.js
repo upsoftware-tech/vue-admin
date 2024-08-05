@@ -8,6 +8,7 @@ const AdminRoutes = {
 		{
 			path: '/',
 			component: () => import('./../pages/dashboard/IndexPage.vue'),
+			name: 'admin',
 			meta: {
 				title: 'Kokpit'
 			},
