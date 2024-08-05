@@ -996,6 +996,11 @@
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
   integrity sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==
 
+"@quasar/extras@^1.16.12":
+  version "1.16.12"
+  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.16.12.tgz#2dac82eac8bb6b069a677d2817e479261d51f234"
+  integrity sha512-hLlb3Buxo38Xg/2w0BTkz98RBh/VH8apZ2r6Fl8YpPgrVQ0diHyN/BVTvIOk5Kch2y38L2kvwOIddsB2UcCuIg==
+
 "@rollup/plugin-babel@^6.0.4":
   version "6.0.4"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-babel/-/plugin-babel-6.0.4.tgz#bd698e351fa9aa9619fcae780aea2a603d98e4c4"
@@ -1725,6 +1730,11 @@ postcss@^8.4.40:
     nanoid "^3.3.7"
     picocolors "^1.0.1"
     source-map-js "^1.2.0"
+
+quasar@^2.16.7:
+  version "2.16.7"
+  resolved "https://registry.yarnpkg.com/quasar/-/quasar-2.16.7.tgz#54603bab4eb56fa05b900f5d33536cc266a4662e"
+  integrity sha512-Q5CCJkxna7MrBft3Iy7O9px/CQYy9Hz1Y5RyKcg/nxMsjlrpCrW9arnXIzac0qPsUE0JqyePHJ1roShhNkeMFA==
 
 randombytes@^2.1.0:
   version "2.1.0"
