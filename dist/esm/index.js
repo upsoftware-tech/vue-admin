@@ -2786,6 +2786,21 @@ var AdminLayout = /*#__PURE__*/Object.freeze({
   default: script$1
 });
 
+function render(_ctx, _cache) {
+  return (openBlock(), createElementBlock("div", null, "KOKPIT"))
+}
+
+const script = {};
+
+
+script.render = render;
+script.__file = "src/pages/dashboard/IndexPage.vue";
+
+var IndexPage = /*#__PURE__*/Object.freeze({
+  __proto__: null,
+  default: script
+});
+
 var AdminRoutes = [{
   path: 'admin',
   component: function component() {
@@ -2805,20 +2820,5 @@ var AdminRoutes = [{
   }]
 }];
 
-function render(_ctx, _cache) {
-  return (openBlock(), createElementBlock("div", null, "KOKPIT"))
-}
-
-const script = {};
-
-
-script.render = render;
-script.__file = "src/pages/dashboard/IndexPage.vue";
-
-var IndexPage = /*#__PURE__*/Object.freeze({
-  __proto__: null,
-  default: script
-});
-
-export { script$1 as AdminLayout, AdminRoutes };
+export { script$1 as AdminLayout, AdminRoutes, script as DashboardPage };
 //# sourceMappingURL=index.js.map
