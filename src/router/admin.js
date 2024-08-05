@@ -1,9 +1,7 @@
-import AdminLayout from "../layouts/AdminLayout.vue";
-
 const AdminRoutes = [
 	{
 		path: 'admin',
-		component: AdminLayout,
+		component: () => import('./../layouts/AdminLayout.vue'),
 		meta: {
 			title: 'Panel administracyjny'
 		},
@@ -19,5 +17,5 @@ const AdminRoutes = [
 	}
 ];
 
-export default AdminRoutes;
+export { AdminRoutes };
 
