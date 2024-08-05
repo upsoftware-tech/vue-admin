@@ -1,5 +1,5 @@
 const AdminRoutes = {
-	path: 'admin',
+	path: '/admin',
 	component: () => import('./../layouts/AdminLayout.vue'),
 	meta: {
 		title: 'Panel administracyjny'
