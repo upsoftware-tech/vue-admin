@@ -1,6 +1,6 @@
 import AdminLayout from "../layouts/AdminLayout.vue";
 
-const adminRoute = [
+const AdminRoutes = [
 	{
 		path: 'admin',
 		component: AdminLayout,
@@ -19,5 +19,5 @@ const adminRoute = [
 	}
 ];
 
-export default adminRoute;
+export default AdminRoutes;
 

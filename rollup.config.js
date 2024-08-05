@@ -11,9 +11,10 @@ export default [
 	{
 		input: 'src/index.js',
 		output: {
-			dir: 'dist',
+			file: 'dist/index.js',
 			format: 'es',
 			sourcemap: true,
+			inlineDynamicImports: true,
 			plugins: [
 				terser({
 					ecma: 2020,
