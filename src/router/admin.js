@@ -1,23 +1,23 @@
-import AdminLayout from "../layouts/AdminLayout.vue";
-import DashboardPage from "../pages/dashboard/IndexPage.vue";
+import { createRouter, createWebHistory } from 'vue-router';
+import DashboardPage from '../pages/dashboard/IndexPage.vue';
 
-const AdminRoutes = {
-	path: '/admin',
-	component: AdminLayout,
-	meta: {
-		title: 'Panel administracyjny'
-	},
-	children: [
-		{
-			path: '/',
-			component: DashboardPage,
-			name: 'admin',
-			meta: {
-				title: 'Kokpit'
+const routes = [
+	{
+		path: '/',
+		component: () => import('../layouts/AdminLayout.vue'),
+		children: [
+			{
+				path: '',
+				component: DashboardPage,
 			},
-		}
-	]
-};
+		],
+	},
+];
 
-export { AdminRoutes };
+const router = createRouter({
+	history: createWebHistory(),
+	routes,
+});
 
+export default router;
+export { routes as AdminRoutes };

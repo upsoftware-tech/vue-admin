@@ -7,5 +7,5 @@
 </template>
 
 <script setup>
-import { UpsoftInputText } from './../index.js';
+import UpsoftInputText from './../components/input/Text.vue';
 </script>
