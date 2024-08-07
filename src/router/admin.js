@@ -1,7 +1,7 @@
 import AdminLayout from "../layouts/AdminLayout.vue";
 import DashboardPage from "../pages/dashboard/IndexPage.vue";
 
-const AdminRoutes = {
+const AdminRoutes = [{
 	path: '/admin',
 	component: AdminLayout,
 	meta: {
@@ -17,7 +17,7 @@ const AdminRoutes = {
 			},
 		}
 	]
-};
+}];
 
 export { AdminRoutes };
 
