@@ -4,6 +4,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import vue from 'rollup-plugin-vue';
 import css from 'rollup-plugin-css-only';
 import babel from '@rollup/plugin-babel';
+import { nodeResolve } from '@rollup/plugin-node-resolve';
 
 const devMode = process.env.NODE_ENV === 'development';
 
@@ -40,6 +41,7 @@ export default [
 			resolve({
 				extensions: ['.js', '.vue'],
 			}),
+			nodeResolve(),
 			commonjs(),
 			babel({
 				exclude: 'node_modules/**',
