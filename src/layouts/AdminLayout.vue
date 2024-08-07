@@ -11,4 +11,5 @@
 
 <script setup>
 import UpsoftInputText from './../components/input/Text.vue';
+import { RouterView, RouterLink } from "vue-router";
 </script>
