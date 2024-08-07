@@ -1,7 +1,6 @@
 <template>
 	<div>
 		<h1>Panel administracyjny</h1>
-		<router-view />
 		<upsoft-input-text />
 		<RouterView />
 	</div>
